@@ -1,0 +1,10 @@
+html {
+  font: 30px/25px sans-serif;
+}
+body{
+  background:  #2AD8Da;
+  color: white
+}
+h1, p {
+  text-align: center;
+}
