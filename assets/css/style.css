@@ -1,10 +1,27 @@
 html {
-  font: 30px/25px sans-serif;
+  font: 30px sans-serif;
 }
 body{
-  background:  #2AD8Da;
-  color: white
+  background:  #2AD8Da8a;
+  color: white;
 }
 h1, p {
   text-align: center;
+  display: block;
+}
+img {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin: 0
+}
+.item {
+  flex: none;
+}
+header {
+  display: flex;
+  align-items: center;
+  min-height: 24em;
+  justify-content: center;
+  flex-direction: column;
 }
